@@ -1,0 +1,96 @@
+
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main Container */
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+}
+header i {
+    font-size: 1.2rem;
+}
+
+    .header-top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: black;
+        color: white;
+    }
+        .header-top-left, .header-top-center, .header-top-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .header-bottom {
+            padding: 2rem;
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+        }
+                .menu, .search-input, .login, .shopping {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+                a {
+                    font-size: 1.3rem;
+                    text-decoration: none;
+                    color: #626262;
+                }
+                    a:hover {text-decoration: underline;}
+                .search-input {
+                    padding: 1rem;
+                    border-radius: 20px;
+                    background-color: #F5F5F5;
+                }
+
+                .search-input input {
+                    width: 14rem;
+                    font-size: 1.3rem;
+                    border: none;
+                    background-color: #F5F5F5;
+                    outline: none;
+                }
+
+/* Main */
+main {padding: 2rem;}
+.categories {
+    display: flex;
+    width: 100%;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.main-bottom {
+    display: flex;
+    padding-top: 2rem;
+}
+
+    .main-bottom-left {
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+        .main-bottom-left img {
+            box-shadow: 2px 2px 4px black
+        }
+        .main-bottom-left img:hover {box-shadow: 3px 3px 6px black;}
+    .main-bottom-center {
+        width: 45%;
+    }
+    .main-bottom-right {
+        width: 45%;
+    }
