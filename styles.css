@@ -93,4 +93,65 @@ main {padding: 2rem;}
     }
     .main-bottom-right {
         width: 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main-bottom-right-top {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .product-price {
+        display: flex;
+        font-weight: bold;
+    }
+
+    .main-bottom-right-top * {margin: 0;}
+
+    .main-bottom-right-top img {
+        width: 180px;
+    }
+
+    .blue {color: #006CB7}
+
+    .prices {font-weight: bold;}
+
+    .financiacion {
+        cursor: pointer;
+        color: #3D3D3D;
+        padding: 10px 40px;
+        background-color: #F3F3F3;
+        border-radius: 10px;
+        width: fit-content;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .main-bottom-right-bottom {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main-bottom-right-bottom * {margin: 0}
+
+    .eleccion-funda {
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 475px;
+    }
+
+    .colores :first-child {
+        cursor: pointer;
+        border: 5px solid black;
+        border-radius: 5px;
+        padding: 10px;
     }
